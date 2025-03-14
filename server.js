@@ -18,7 +18,7 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD,
   port: process.env.DB_PORT,
 });
-
+console.log("hello");
 // Create table if not exists
 pool
   .query(
